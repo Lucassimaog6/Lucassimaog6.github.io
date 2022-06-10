@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #aaa;
+    height: 50px;
+    margin-bottom: 100px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    background-color: #888;
+    max-width: 60vw;
+    border: 5px solid;
+    text-align: center;
+}
+
+article img{
+    width: 80%;
+    margin: 5% 10%;
+    border: solid;
+}
