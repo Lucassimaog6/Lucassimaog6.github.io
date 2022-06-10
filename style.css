@@ -1,3 +1,5 @@
+/* Importar fonte 'Roboto' */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,18 @@ header{
     height: 50px;
     margin-bottom: 100px;
 }
+ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: black;
+}
+
 main{
     display: flex;
     justify-content: space-around;
