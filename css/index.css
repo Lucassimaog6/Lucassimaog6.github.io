@@ -2,7 +2,7 @@
 
 :root {
 	--bg: #282828;
-	--fg: #abb2bf;
+	--fg: #c9cfdb;
 	--red: #e06c75;
 	--green: #98c389;
 	--blue: #4194D9;
@@ -13,6 +13,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: inherit;
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
 }
 
 .blue {
