@@ -5,7 +5,7 @@
 	--fg: #abb2bf;
 	--red: #e06c75;
 	--green: #98c389;
-	--blue: #61afef;
+	--blue: #4194D9;
 }
 
 * {
@@ -69,6 +69,14 @@ button {
 	letter-spacing: 1px;
 }
 
+#theme-label{
+	margin-inline: 1rem;
+}
+
+#theme-check{
+	display: none;
+}
+
 main {
 	width: 100%;
 	display: grid;
@@ -123,6 +131,13 @@ hr.green {
 	width: 100%;
 	margin-left: 2rem;
 	border: 1px solid var(--green);
+}
+
+hr.blue {
+	align-self: center;
+	width: 100%;
+	margin-left: 2rem;
+	border: 1px solid var(--blue);
 }
 
 .left p {
@@ -188,7 +203,7 @@ hr.green {
 	grid-row: 1 / 1;
 	z-index: -2;
 
-	border-radius: 1rem;
+	border-radius: 10px;
 
 	overflow: hidden;
 	display: grid;
@@ -209,11 +224,11 @@ hr.green {
 
 .desc-proj > p {
 	background-color: var(--green);
-	border-radius: 1rem;
+	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	padding: 2rem;
-	color: var(--bg);
+	color: #282828;
 }
 
 .reverse .proj-img {
@@ -241,4 +256,27 @@ hr.green {
 }
 .reverse .stack {
 	justify-content: start;
+}
+
+/* contato */
+
+.contato {
+	min-height: 500px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.contato > * {
+	max-width: 500px;
+}
+
+.contato .section-title {
+	align-self: flex-start;
+	width: 450px;
+}
+
+.contato .nome{
+	font-size: 3rem;
 }

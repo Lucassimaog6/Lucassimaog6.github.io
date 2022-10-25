@@ -1,0 +1,22 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	transition: background-color 300ms, color 100ms;
+}
+
+button:hover{
+	background-color: var(--blue);
+	color: var(--bg);
+}
+button{
+	transition: background-color 300ms, color 300ms;
+}
+
+.proj-img, .desc-proj>p{
+	box-shadow: 0px 1rem 3rem 1rem rgba(0, 0, 0, .1);
+}
+
+.img img{
+	box-shadow: 1rem 1rem 3rem 1rem rgba(0, 0, 0, .2);
+}
