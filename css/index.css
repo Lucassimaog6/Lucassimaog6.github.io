@@ -89,7 +89,7 @@ main {
 }
 
 .home {
-	min-height: calc(100vh - 200px);
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -173,7 +173,6 @@ hr.blue {
 
 .img-deco {
 	width: 400px;
-	height: 400px;
 	border: 3px solid var(--red);
 	border-radius: 10px;
 	position: absolute;
