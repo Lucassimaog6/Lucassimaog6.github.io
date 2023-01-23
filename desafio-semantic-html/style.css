@@ -4,6 +4,9 @@
 	padding: 0;
 	text-align: center;
 	border: 3px solid black;
+	background-color: white;
+	border-radius: 1rem;
+	transition: all 0.5s;
 }
 
 body {
@@ -31,6 +34,10 @@ nav {
 	place-items: center;
 }
 
+nav:hover {
+	background-color: red;
+}
+
 section:nth-of-type(1) {
 	height: 100%;
 	border-color: blue;
@@ -40,11 +47,19 @@ section:nth-of-type(1) {
 	grid-template-rows: 1% 1fr 8fr 1fr;
 }
 
+section:nth-of-type(1):hover {
+	background-color: blue;
+}
+
 header {
 	display: grid;
 	place-items: center;
 	width: 100%;
 	border-color: lightgray;
+}
+
+header:hover {
+	background-color: lightgrey;
 }
 
 article {
@@ -54,6 +69,10 @@ article {
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 2fr;
+}
+
+article:hover {
+	background-color: pink;
 }
 
 article > header {
@@ -73,26 +92,41 @@ p {
 	place-items: center;
 }
 
+p:hover {
+	background-color: saddlebrown;
+}
+
 aside {
 	display: grid;
 	place-items: center;
 	border-color: lightblue;
 }
+aside:hover {
+	background-color: lightblue;
+}
 
 section:nth-of-type(2) {
+	border-color: orange;
 	height: 100%;
 	display: grid;
 	padding: 1rem;
 	gap: 1rem;
 	grid-template-rows: 2fr 8fr;
 }
+section:nth-of-type(2):hover {
+	background-color: orange;
+}
 
 footer {
 	display: grid;
 	place-items: center;
+	border-color: green;
+}
+
+footer:hover {
+	background-color: green;
 }
 
 body > footer {
 	grid-column: span 2;
-	border-color: green;
 }
